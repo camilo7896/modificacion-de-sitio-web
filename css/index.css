@@ -1,0 +1,164 @@
+/* imagenes de fondo */
+body{
+    /* background-image: url("https://i.pinimg.com/originals/65/c8/e6/65c8e606b5d11fe623acbdbcd1f01a4b.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    background: #0000001a;
+}
+
+.boxHeadwer{
+background-image: url("https://www.todofondos.net/wp-content/uploads/2160x3840-4K-Fondo-de-pantalla-de-DBZ-y-Super-For-Phones-Syanart-Station-scaled.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: rgb(233, 124, 0);
+    padding: 10rem;
+    width: 100%;
+} 
+/* header 2 */
+header .imgheader{
+    background-image: url("https://i.pinimg.com/originals/88/7d/02/887d020496db7af1cb1287b984d5e36c.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(233, 124, 0);
+    width: 100%;
+    height: 400px;
+}
+
+
+/*fin imagenes de fondo */
+/* pie de pagina */
+footer{
+    width: 100%;
+}
+.boxFooter{
+    width: 100%;
+    padding: 2rem;
+    background:  #000000;
+    color: cyan;
+}
+#copyright{
+    padding: 2rem 0 0 0;
+    text-align: center;
+}
+/* titulo de pie de pagian */
+footer h1{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+/* boton para ir al inicio */
+.botonSubir{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.containerCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+    justify-content: center;
+    
+}
+
+.card{
+    width:25rem;
+    height: auto;
+    background-image: url("https://i.pinimg.com/originals/49/6b/05/496b05ab1fc522e3307f6f19f04f66b3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    border: 5px solid rgb(8, 8, 8);
+    border-radius: 18px;
+    padding: 0.8rem;
+    color: rgb(255, 255, 255);
+   
+    margin: 15px;
+}
+
+.imgCard{
+   display: flex;
+   justify-content: center;
+ 
+  
+}
+.dataCard{
+    background: #000000b6;
+    border-radius: 15px;
+    border: 1px solid purple;
+    padding: 5px;
+}
+.img{
+    width: 35%;
+}
+.cont{
+    border-bottom: 1px solid purple;
+}
+
+.navHamburguesa{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+ /* card */
+    .card{
+        width: 300px;
+        background-image: url("https://i.pinimg.com/originals/49/6b/05/496b05ab1fc522e3307f6f19f04f66b3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        border: 5px solid rgb(8, 8, 8);
+        border-radius: 18px;
+        padding: 0.8rem;
+        color: rgb(255, 255, 255);
+   
+    }
+    .imgCard{
+        display: flex;
+        justify-content: center;
+      
+     }
+     .dataCard{
+         background: #000000b6;
+         border-radius: 15px;
+         border: 1px solid purple;
+         padding: 5px;
+     }
+     .img{
+         width: 42%;
+     }
+     .cont{
+         border-bottom: 1px solid purple;
+     }
+     /*End card */
+
+h1{
+    font-size: 32px;
+}
+.navHamburguesa{
+    display: block;
+}
+footer{
+    height: 20px;
+}
+}
+   
+@media only screen and (max-width: 900px) {
+
+  /* titulo del header */
+  .boxHeadwer h1{
+    display: none;
+ }
+ /* end titulo del header */
+}
