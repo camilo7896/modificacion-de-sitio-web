@@ -85,7 +85,7 @@ footer h1{
 .imgCard{
    display: flex;
    justify-content: center;
- 
+ width: 15rem;
   
 }
 .dataCard{
@@ -153,12 +153,34 @@ footer{
     height: 20px;
 }
 }
-   
+
+/* ********************* GifCards **************** */
+   .cardGif{
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.938);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0;
+    padding: 5px;
+   }
+   .gif{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 0.5rem;
+    padding: 5px;
+   }
+  
+
+/* ********************* GifCards **************** */
+
+
+/****************   Querys *******************/
 @media only screen and (max-width: 900px) {
 
   /* titulo del header */
   .boxHeadwer h1{
     display: none;
  }
- /* end titulo del header */
+
 }
+
