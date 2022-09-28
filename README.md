@@ -1,7 +1,7 @@
 # <h1>modificacion-de-sitio-web</h1>
 
 En este proyecto realice una modificacion a este sitio web. 
-<a src="https://camilo7896.github.io/modificacion-de-sitio-web/#"> LInk del proyecto</a>
+https://camilo7896.github.io/modificacion-de-sitio-web/#"
 <h4>Los cambios que se realizaron fueron :</h4>
 <ul>
   <li> Cambio de imagenes</li>
